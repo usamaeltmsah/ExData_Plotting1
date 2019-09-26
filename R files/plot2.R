@@ -8,3 +8,4 @@ days <- weekdays(as.Date(dates))
         #lines(d1[rem_na], Global_active_power[rem_na])
         dev.copy(png, file = "plot2.png") ## Copy my plot to a PNG file
         dev.off() ## Don't forget to close the PNG device
+        
